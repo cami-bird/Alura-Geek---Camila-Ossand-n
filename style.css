@@ -1,0 +1,320 @@
+html{
+    width: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    background: radial-gradient(circle, rgba(104, 54, 240, 0.6), rgba(232, 25, 32, 0.6));
+    font-family: "Frank Ruhl Libre", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(59, 59, 59);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*Header*/
+
+.header{
+    width: 100%;
+}
+
+.img__header{
+    width: 100%;
+}
+
+
+/*Sección Productos*/
+
+.productos{
+    width: 100%;
+    max-width: 1830px;
+    padding-left: 30px;
+    padding-top: 3%;
+}
+
+.mis__productos__title{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #21006d;
+}
+
+.productos__line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background: rgba(192, 154, 255, 0.5);
+    box-shadow: 0 4px 8px rgba(79, 43, 138, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.productos__box{
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    max-width: calc(33.333% - 40px);
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(33, 0, 109);
+}
+
+.productos__box ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.producto__item{
+    width: 55%;
+    box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+}
+
+.producto__title{
+    font-size: 20px;
+    color: rgb(33, 0, 109);
+}
+
+.producto__precio{
+    font-size: 20px;
+}
+
+.btn__eliminar{
+    font-size: 15px;
+    border-radius: 8px;
+    background: rgb(124, 67, 214);
+    color: rgb(233, 245, 255);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2%;
+}
+
+
+/*Formulario*/
+
+.container__formulario{
+    display: flex;
+    width: 55%;
+    margin-top: 5%;
+    margin-left: 19%;
+    flex-direction: column;
+    line-height: 1.5;
+    gap: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(192, 154, 255, 0.5);
+    box-shadow: 0 4px 8px rgba(79, 43, 138, 0.2);
+    color: rgb(33, 0, 109);
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.formulario__titulo{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.campo__escrito{
+    width: 35%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 12px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.formulario__boton__submit{
+    width: 20%;
+    margin-top: 2.5%;
+    margin-left: 41.7%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 12px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(124, 67, 214);
+    color: rgb(233, 245, 255);
+}
+
+.formulario__boton__reset{
+    width: 20%;
+    margin-left: 41.7%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 12px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(124, 67, 214);
+    color: rgb(233, 245, 255);
+}
+
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.footer__description{
+    color: rgb(233, 245, 255, 0.8);
+}
+
+
+/*Tablet*/
+
+@media (max-width: 840px) {
+
+/*Sección Productos*/
+
+.mis__productos__title{
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+.productos__line{
+    margin-left: -3%;
+}
+
+.productos__box{
+    padding-left: 0%;
+}
+
+.producto__item{
+    width: 90%;
+}
+
+.producto__title{
+    font-size: 17px;
+}
+
+.producto__precio{
+    font-size: 17px;
+}
+
+.btn__eliminar{
+    font-size: 15px;
+}
+
+}
+
+/*Sección Container*/
+
+.formulario__titulo{
+    font-size: 1.5em;
+}
+
+.campo__escrito{
+    width: 75%;
+}
+
+.formulario__boton__submit{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.formulario__boton__reset{
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+
+
+/*Celular*/
+
+@media (max-width: 360px) {
+
+/*Sección Header*/
+
+.productos{
+    margin-left: -5%;
+}
+
+.img__header{
+    width: 111.9%;
+}
+
+/*Sección Productos*/
+
+.mis__productos__title{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.productos__line {
+    display: flex;
+    flex-wrap: wrap; /* Ajustar a una sola fila */
+    justify-content: space-around; /* Distribución equitativa */
+    width: 90%; /* Ocupar el 90% del contenedor padre */
+    margin: 0 auto; /* Centrar en el contenedor */
+}
+
+.productos__box{
+   flex: 1 1 calc(50% - 20px); 
+   max-width: calc(50% - 10px);
+}
+
+.producto__item{
+    width: 110%;
+}
+
+/*Sección Container*/
+
+.container__formulario{
+    width: 99%;
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.formulario__titulo{
+    font-size: 1.5 em;
+    margin-top: 6%;
+}
+
+.campo__escrito{
+    width: 98%;
+}
+
+#imagen_articulo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Sección Footer*/
+
+.footer{
+    padding-bottom: 5%;
+}
+
+}

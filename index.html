@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Indie+Flower&family=Lora:ital,wght@0,400..700;1,400..700&family=Marcellus&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Alura Geek - Camila Ossandón</title>
+</head>
+
+<body>
+    <div class="div__header">
+        <section class="section__header">
+            <header class="header">
+                <img class="img__header" src="assets/header.png">
+            </header>
+        </section>
+    </div>
+
+    <section class="productos" id="productos">
+        <h3 class="mis__productos__title">MIS PRODUCTOS <i class="fas fa-shopping-cart"></i></h3>
+        <div class="productos__line">
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/guitarra_ibanez.jpeg" alt="Guitarra Eléctrica Ibanez"></li>
+                    <li class="producto__title">Guitarra Eléctrica Ibanez - Rose Gold Chameleon</li>
+                    <li class="producto__precio">$950.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/guitarra_epiphone.jpeg" alt="Guitarra Eléctrica Epiphone"></li>
+                    <li class="producto__title">Guitarra Eléctrica Epiphone Les Paul Prophecy - Black Aged Gloss</li>
+                    <li class="producto__precio">$960.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/electroacustica_ibanez.jpeg" alt="Guitarra Electroacústica Ibanez"></li>
+                    <li class="producto__title">Guitarra Electroacústica Ibanez - Transparent Black Sunburst</li>
+                    <li class="producto__precio">$550.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/bajo_ibanez.jpeg" alt="Bajo Eléctrico Ibanez"></li>
+                    <li class="producto__title">Bajo Eléctrico Ibanez - Brown Mahogany</li>
+                    <li class="producto__precio">$700.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/epiphone_red.jpeg" alt="Guitarra Eléctrica Epiphone Roja"></li>
+                    <li class="producto__title">Guitarra Eléctrica Epiphone - Sparkling Burgundy</li>
+                    <li class="producto__precio">$600.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/bajo__electroacustico.jpeg" alt="Bajo Electroacústico Negro"></li>
+                    <li class="producto__title">Bajo Electroacústico Ibanez - Black</li>
+                    <li class="producto__precio">$300.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/guitarra_acustica.jpeg" alt="Guitarra Acústica Takamine"></li>
+                    <li class="producto__title">Guitarra Acústica Takamine - Natural</li>
+                    <li class="producto__precio">$310.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/guitarra_acustica_ibanez.jpeg" alt="Guitarra Acústica Ibanez"></li>
+                    <li class="producto__title">Guitarra Acústica Ibanez - Open Pore Natural</li>
+                    <li class="producto__precio">$340.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+            <div class="productos__box">
+                <ul>
+                    <li class="img__producto"><img class="producto__item" src="assets/guitarra_ibanez_black.jpeg" alt="Guitarra Eléctrica Negra Ibanez"></li>
+                    <li class="producto__title">Guitarra Eléctrica Ibanez - Black Flat</li>
+                    <li class="producto__precio">$1.000.000 CLP</li>
+                    <li><button onclick="eliminar__producto" class="btn__eliminar"><i class="fas fa-trash-alt"></i> Eliminar</button></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <form class="container__formulario">
+            <h2 class="formulario__titulo">AGREGAR PRODUCTO:</h2>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Nombre:</label>
+                    <input name="nombre" class="campo__escrito" required placeholder="Coloca el nombre del artículo" id="nombre"/>
+                </div>
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Precio:</label>
+                    <input name="precio" class="campo__escrito" required placeholder="Coloca el precio del artículo" id="precio"/>
+                </div>
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Imagen:</label>
+                    <input type="file" name="imagen" class="campo__escrito" accept="image/*" required placeholder="Suba una imagen" id="imagen_articulo"/>
+                </div>
+
+                <div id="show_loaded_image">
+
+                </div>
+
+                <input class="formulario__boton__submit" type="submit" value="ENVIAR"/>
+                <input class="formulario__boton__reset" type="reset" value="RESTABLECER"/>
+        </form>
+    </section>
+
+    <section class="footer">
+         <div class="footer__index" id="footer__title">
+            <p class="footer__description"><em>Desarrollado por Cami Bird - 2024</em></p>                
+        </div>
+    </section>
+ </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
